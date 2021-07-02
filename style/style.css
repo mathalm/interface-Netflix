@@ -7,7 +7,7 @@
 body{
     background: #141414;
     font-family: 'Times New Roman', Times, serif;
-
+    color: white;
     
 
 }
@@ -33,4 +33,21 @@ header nav a{
 header nav a:hover{
     color: #fff;
 
+}
+/*Filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('/img/capa-house.jpg');
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}.filme-principal .descricao{
+    margin-bottom: 50px;
+}
+.titulo{
+    font-size: 40px;
 }
