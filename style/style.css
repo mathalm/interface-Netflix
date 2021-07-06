@@ -18,6 +18,12 @@ header .container{
     justify-content: space-between;
     
 }
+header .container-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
 header .logo{
     margin-left:5px ;
     color: red;
@@ -77,4 +83,14 @@ header nav a:hover{
 .botao i{
     margin-right: 8px;
 }
+.container{
+    margin-left: 30px;
 
+    width: 70%;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
